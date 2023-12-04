@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=Bungee");
+
+body{
+    background-color: #2E282A;
+}
+
+.time{
+    top: 50px;
+    left: 100px;
+    height: 350px;
+    width: 350px;
+    position: relative;
+    font-family: "Bungee", cursive;
+
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 500px;
+}
+/* CodeWithNTI */
+li{
+    position: absolute;
+    height: 50%;
+    width: 20px;
+    transform-origin: bottom;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 40px;
+}
+
+li:nth-child(1){
+    transform: rotate(30deg);
+}
+
+li:nth-child(2){
+    transform: rotate(60deg);
+}
+
+li:nth-child(3){
+    transform: rotate(90deg);
+}
+
+li:nth-child(4){
+    transform: rotate(120deg);
+}
+
+li:nth-child(5){
+    transform: rotate(150deg);
+}
+
+li:nth-child(6){
+    transform: rotate(180deg);
+}
+
+li:nth-child(7){
+    transform: rotate(210deg);
+}
+
+li:nth-child(8){
+    transform: rotate(240deg);
+}
+
+li:nth-child(9){
+    transform: rotate(270deg);
+}
+/* CodeWithNTI */
+li:nth-child(10){
+    transform: rotate(300deg);
+}
+
+li:nth-child(11){
+    transform: rotate(330deg);
+}
+
+li:nth-child(12){
+    transform: rotate(360deg);
+}
+
+ul.seconds{
+    background-color: #ff0055;
+    height: 60%;
+    width: 60%;
+    z-index: 3;
+    color: #AEF3E7;
+    box-shadow: 0px 0px 5px black;
+}
+
+ul.minutes{
+    height: 80%;
+    width: 80%;
+    background-color: #EFD09E;
+    color: #272727;
+    z-index: 2;
+    box-shadow: 0px 0px 5px #a6711b;
+}
+ul.hours{
+    height: 100%;
+    width: 100%;
+    background-color: #004E64;
+    z-index: 1;
+    color: #ffffff;
+    box-shadow: 0px 0px 5px black;
+}
+/* CodeWithNTI */
+.blow::before{
+    content: "";
+    position: absolute;
+    border: 2px solid black;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 50%;
+    opacity: 0.4;
+    width: 0px;
+    z-index: 55;
+    border-radius: 50px;
+}
